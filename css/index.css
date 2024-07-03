@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background: rgb(161, 162, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(161, 162, 144, 1) 5%,
+    rgba(181, 194, 191, 1) 66%,
+    rgba(228, 239, 237, 1) 100%,
+    rgba(14, 193, 158, 1) 100%
+  );
+}
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background: rgb(15, 144, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 144, 116, 1) 34%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 255, 248, 1) 100%
+  );
+  display: flex;
+  justify-content: end;
+  padding-right: 3em;
+}
+.box {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-box {
+  width: 830px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(3, 46, 27);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 46, 27, 1) 6%,
+    rgba(15, 143, 144, 1) 100%,
+    rgba(15, 144, 90, 1) 100%,
+    rgba(0, 255, 248, 1) 100%
+  );
+  margin-top: 5em;
+  padding: 3em;
+}
+.currency-input {
+  width: 100%;
+  padding: 4px;
+  padding-left: 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.currency-input:focus {
+  outline: none;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  margin-top: 4px;
+}
+.select-flag1,
+.select-flag2 {
+  position: absolute;
+  padding-left: 5.3em;
+}
+.transfer-from {
+  width: 80%;
+  margin: 2em 4.5em;
+  display: flex;
+  padding-left: 3em;
+  padding: 7px;
+  border: none;
+}
+.transfer-from:focus {
+  outline: none;
+}
+.transfer-to {
+  width: 80%;
+  margin: 0em 4.5em;
+  display: flex;
+  padding-left: 3em;
+  padding: 7px;
+  border: none;
+}
+.transfer-to:focus {
+  outline: none;
+}
+.btn {
+  margin: 2em 4.5em;
+  padding: 7px;
+}
+.arrow-btn {
+  height: 2em;
+  width: 5em;
+  background-color: transparent;
+  border: none;
+}
+.arrow-btn:focus {
+  outline: none;
+}
+.fa-arrow-right-arrow-left {
+  font-size: 2em;
+}
+.op {
+  background-image: url("https://flagsapi.com/AE/shiny/32.png");
+}
+.sel {
+  background-image: url("https://flagsapi.com/AE/shiny/32.png");
+}
